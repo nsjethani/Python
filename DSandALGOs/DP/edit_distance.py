@@ -4,7 +4,7 @@ def minDistance(word1, word2):
     :type word2: str
     :rtype: int
     """
-
+    # from one word to another
     if not word1:
         return len(word2) + 1
     if not word2:
